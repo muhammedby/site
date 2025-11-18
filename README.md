@@ -1,40 +1,42 @@
-<<<<<<< HEAD
-# site
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Muhammed Batuhan Bayram — Portfolio
 
-## Getting Started
+Modern, hızlı ve erişilebilir kişisel site. Next.js App Router, Tailwind CSS ve Framer Motion ile geliştirildi.
 
-First, run the development server:
+## Tech
+- Next.js 16 (App Router, `src/app`)
+- Tailwind CSS v4
+- Framer Motion, lucide-react, react-icons
 
+## Scripts
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev     # local development (opsiyonel)
+npm run build   # production build
+npm start       # run the built app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Vercel (önerilen)
+1) Reponu Vercel’e bağla (Import Project).
+2) Framework: Next.js. Build Command: `npm run build`. Output: otomatik.
+3) Ortam değişkenlerini (varsa) Vercel Dashboard’dan ekle ve Deploy.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Cloudflare Pages
+1) Pages → Connect to Git → Framework preset: Next.js
+2) Build Command: `npm run build`  •  Output dir: `.next`
+3) Node compatibility’yi aç. SSR özellikleri için Pages’in Next.js entegrasyonu aktif olmalıdır.
 
-## Learn More
+## İçerik / Varlıklar
+- Sertifika görselleri: `public/certs/...`
+- Sertifika verileri: `src/data/certificates.js`
 
-To learn more about Next.js, take a look at the following resources:
+## Çalışma Notları
+- SEO & meta: `src/app/layout.js`, `src/app/robots.js`, `src/app/sitemap.js`
+- Ana sayfa: `src/app/page.js`
+- Navigasyon/Altlık: `src/components/Nav.js`, `src/components/Footer.js`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Env
+- `.env*` dosyaları `.gitignore` içinde. Prod env’leri doğrudan Vercel/Cloudflare üzerinden tanımlayın.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> a3a29e5 (Initial commit from Create Next App)
+## Lisans
+MIT © Muhammed Batuhan Bayram
