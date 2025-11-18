@@ -1,65 +1,266 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { certificates } from "@/data/certificates";
+import { Github, Linkedin, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="relative mx-auto flex min-h-dvh w-full max-w-6xl flex-col items-center justify-center px-6 py-24 sm:px-8">
+      <motion.div
+        initial={{ opacity: 0, y: 20, filter: "blur(4px)" }}
+        animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+        transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+        className="z-10 text-center"
+      >
+        <span className="inline-block rounded-full border border-white/10 bg-white/60 px-3 py-1 text-xs font-medium text-zinc-700 backdrop-blur dark:bg-white/10 dark:text-zinc-200">
+          Mühendislik · JS · C++ · Python · AI · Cloud · Linux
+        </span>
+        <h1 className="mt-6 max-w-none bg-gradient-to-r from-teal-400 via-violet-400 to-indigo-400 bg-clip-text text-6xl font-extrabold leading-tight text-transparent sm:text-7xl md:whitespace-nowrap">
+          Muhammed Batuhan Bayram
+        </h1>
+        <div className="mt-3">
+          <div className="bg-gradient-to-b from-zinc-900 to-zinc-600 bg-clip-text text-4xl font-semibold text-transparent dark:from-zinc-100 dark:to-zinc-400 sm:text-5xl">
+            Linux Developer
+          </div>
+          <div className="bg-gradient-to-b from-zinc-700 to-zinc-400 bg-clip-text text-2xl font-medium text-transparent dark:from-zinc-300 dark:to-zinc-500 sm:text-3xl">
+            Open‑Source Enthusiast
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+        <p className="mx-auto mt-5 max-w-2xl text-balance text-zinc-600 dark:text-zinc-400">
+          Yazılım becerilerimi geliştirmek isteyen bir Elektrik‑Elektronik mühendisliği öğrencisiyim. Şu anda JavaScript, C++ ve Python ile çalışıyorum. Ayrıca Linux üzerinde çeşitli projeler geliştiriyorum.
+        </p>
+
+        <div className="mx-auto mt-8 flex flex-wrap items-center justify-center gap-3">
+          <motion.a
+            href="https://github.com/muhammedby"
             target="_blank"
             rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 rounded-full bg-zinc-900 px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-white"
+            whileHover={{ y: -2 }}
+            transition={{ type: "spring", stiffness: 400, damping: 25 }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
+            <Github className="h-4 w-4" />
+            GitHub
+            <ArrowRight className="h-4 w-4 opacity-60 transition group-hover:translate-x-0.5" />
+          </motion.a>
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/muhammed-batuhan"
             target="_blank"
             rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-zinc-300/60 bg-white px-5 py-3 text-sm font-medium text-zinc-900 transition hover:bg-zinc-50 dark:border-white/20 dark:bg-transparent dark:text-zinc-200 dark:hover:bg-white/5"
           >
-            Documentation
+            <Linkedin className="h-4 w-4" />
+            LinkedIn
           </a>
         </div>
-      </main>
-    </div>
+      </motion.div>
+
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[60dvh] bg-[radial-gradient(1200px_400px_at_50%_-100px,rgba(99,102,241,.25),transparent_60%)]"
+      />
+
+      {/* What I do */}
+      <section
+        id="what-i-do"
+        className="mx-auto mt-24 w-full max-w-5xl scroll-mt-20"
+      >
+        <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+          Ne yapıyorum?
+        </h2>
+        <p className="mt-2 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">
+          Modern web uygulamaları, servisler ve veri odaklı çözümler.
+        </p>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            {
+              title: "JavaScript / React / Next.js",
+              desc: "SSR/ISR, erişilebilir, performanslı arayüzler.",
+            },
+            {
+              title: "C++",
+              desc: "Sistem araçları ve performans odaklı modüller.",
+            },
+            {
+              title: "Python",
+              desc: "Otomasyon ve veri işleme.",
+            },
+          ].map((item) => (
+            <div
+              key={item.title}
+              className="rounded-xl border border-white/10 bg-white/60 p-5 backdrop-blur dark:bg-white/5"
+            >
+              <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                {item.title}
+              </h3>
+              <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Projects teaser */}
+      <section id="projects" className="mx-auto mt-20 w-full max-w-5xl scroll-mt-20">
+        <div className="flex items-end justify-between">
+          <div>
+            <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+              Öne Çıkan Projeler
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">
+              Seçili repo ve çalışmalar.
+            </p>
+          </div>
+          <a
+            href="https://github.com/muhammedby"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-zinc-700 underline underline-offset-4 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-white"
+          >
+            Tümünü Gör
+          </a>
+        </div>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {[
+            {
+              name: "ai_frontend",
+              href: "https://github.com/muhammedby/ai_frontend",
+              stack: "TypeScript · React",
+            },
+            {
+              name: "ai_backend",
+              href: "https://github.com/muhammedby/ai_backend",
+              stack: "JavaScript · API",
+            },
+            {
+              name: "turboost",
+              href: "https://github.com/muhammedby/turboost",
+              stack: "Python",
+            },
+          ].map((p) => (
+            <motion.a
+              key={p.name}
+              href={p.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-xl border border-white/10 bg-white/60 p-5 backdrop-blur transition dark:bg-white/5"
+              whileHover={{ y: -4, scale: 1.01 }}
+              transition={{ type: "spring", stiffness: 400, damping: 30 }}
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                  {p.name}
+                </h3>
+                <span className="text-xs text-zinc-600 transition group-hover:text-zinc-800 dark:text-zinc-400 dark:group-hover:text-zinc-200">
+                  {p.stack}
+                </span>
+              </div>
+              <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400">
+                GitHub'da incele
+              </p>
+            </motion.a>
+          ))}
+        </div>
+      </section>
+
+      {/* Certificates */}
+      <section
+        id="certificates"
+        className="mx-auto mt-20 w-full max-w-5xl scroll-mt-20"
+      >
+        <div className="flex items-end justify-between">
+          <div>
+            <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+              Sertifikalar ve Başarılar
+            </h2>
+          </div>
+        </div>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {certificates.map((c) => {
+            const isInternal = c.href && c.href.startsWith("/");
+            const CardInner = (
+              <>
+                <div className="relative aspect-[16/10] w-full">
+                  <Image
+                    src={c.image}
+                    alt={c.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
+                    className="object-cover"
+                    priority={false}
+                    unoptimized
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+                    {c.title}
+                  </h3>
+                  <p className="mt-1 text-xs text-zinc-600 dark:text-zinc-400">
+                    {c.issuer} · {c.date}
+                  </p>
+                  {!isInternal ? (
+                    <p className="mt-2 text-xs text-zinc-700 underline underline-offset-4 group-hover:text-zinc-900 dark:text-zinc-300 dark:group-hover:text-white">
+                      LinkedIn'de incele
+                    </p>
+                  ) : null}
+                </div>
+              </>
+            );
+            return isInternal ? (
+              <Link
+                key={c.title}
+                href={c.href}
+                className="group overflow-hidden rounded-xl border border-white/10 bg-white/60 transition hover:border-white/20 hover:shadow-sm backdrop-blur dark:bg-white/5"
+              >
+                {CardInner}
+              </Link>
+            ) : (
+              <a
+                key={c.title}
+                href={c.href || "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group overflow-hidden rounded-xl border border-white/10 bg-white/60 transition hover:border-white/20 hover:shadow-sm backdrop-blur dark:bg-white/5"
+              >
+                {CardInner}
+              </a>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* Contact CTA */}
+      <section
+        id="contact"
+        className="mx-auto mt-20 w-full max-w-5xl scroll-mt-20 rounded-xl border border-white/10 bg-gradient-to-r from-zinc-100 to-white p-8 text-center dark:from-white/5 dark:to-transparent"
+      >
+        <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+          Birlikte çalışalım
+        </h2>
+        <p className="mx-auto mt-2 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">
+          Fikrini birlikte ürüne dönüştürelim. Mesaj bırak ya da bağlantı kuralım.
+        </p>
+        <div className="mt-6 flex items-center justify-center gap-3">
+          <a
+            href="mailto:batubayram18@gmail.com"
+            className="rounded-full bg-zinc-900 px-5 py-3 text-sm font-medium text-white shadow-sm transition hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-white"
+          >
+            E‑posta Gönder
+          </a>
+          <a
+            href="https://www.linkedin.com/in/muhammed-batuhan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full border border-zinc-300/60 bg-white px-5 py-3 text-sm font-medium text-zinc-900 transition hover:bg-zinc-50 dark:border-white/20 dark:bg-transparent dark:text-zinc-200 dark:hover:bg-white/5"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
   );
 }
