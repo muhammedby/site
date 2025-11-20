@@ -37,7 +37,7 @@ export const metadata = {
       "Mühendislik odaklı modern yazılım projeleri ve case study'ler.",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.svg",
   },
 };
 

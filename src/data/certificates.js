@@ -11,7 +11,7 @@ export const certificates = [
       "Galatasaray Üniversitesi ve Boğaziçi Üniversitesi tarafından düzenlenen Dijital Liderlik Akademisi 2025 programını başarıyla tamamlamış bulunuyorum.",
       "Program süresince dijital dönüşüm, iş mutasyonu, tokenler, coinler, NFT'ler, web3, merkeziyetsiz internet, etkili liderlik teknikleri ve sürdürülebilirlik yaklaşımları hakkında kapsamlı bilgiler edindim.",
     ],
-    image: "/certs/DLA 2025/dla_başarı",
+    image: "/certs/dla-2025/dla-basari.png",
   },
   {
     title: "DLA 2025 — Katılım Sertifikası",
@@ -25,7 +25,7 @@ export const certificates = [
       "Galatasaray Üniversitesi ve Boğaziçi Üniversitesi tarafından düzenlenen Dijital Liderlik Akademisi 2025 programını başarıyla tamamlamış bulunuyorum.",
       "Program süresince dijital dönüşüm, iş mutasyonu, tokenler, coinler, NFT'ler, web3, merkeziyetsiz internet, etkili liderlik teknikleri ve sürdürülebilirlik yaklaşımları hakkında kapsamlı bilgiler edindim.",
     ],
-    image: "/certs/DLA 2025/dla_katılım",
+    image: "/certs/dla-2025/dla-katilim.png",
   },
   {
     title: "Huawei Cloud — Katılım Sertifikası",
@@ -43,7 +43,7 @@ export const certificates = [
       "Bu başarıda emeği geçen GSU Innove ve Paribu Hub ekipleri ile değerli hocalarımız başta Murat Levent Demircan ve Ali Tıknazoğlu, Bertuğ Oymak, Recep İlkbahar, Emirhan Erdoğan, Erman Taylan, Aslı Deniz Helvacıoğlu olmak üzere tüm organizasyon paydaşlarına içten teşekkürlerimi sunarım.",
       "Kendimi geliştirme ve yeni ufuklar keşfetme kararlılığımla yoluma devam edeceğim.",
     ],
-    image: "/certs/Huawei Cloud/cloud_katılım",
+    image: "/certs/huawei-cloud/cloud-katilim.png",
   },
   {
     title: "DLA 2025 — Etkinlik",
@@ -56,7 +56,7 @@ export const certificates = [
       "Galatasaray Üniversitesi ve Boğaziçi Üniversitesi tarafından düzenlenen Dijital Liderlik Akademisi 2025 programını başarıyla tamamlamış bulunuyorum.",
       "Program süresince dijital dönüşüm, iş mutasyonu, tokenler, coinler, NFT'ler, web3, merkeziyetsiz internet, etkili liderlik teknikleri ve sürdürülebilirlik yaklaşımları hakkında kapsamlı bilgiler edindim.",
     ],
-    image: "/certs/DLA 2025/IMG_8860.JPG",
+    image: "/certs/dla-2025/dla-etkinlik.png",
   },
 ];
 
