@@ -1,42 +1,25 @@
-# Muhammed Batuhan Bayram — Portfolio
+# Muhammed Batuhan Bayram
 
-Modern, hızlı ve erişilebilir kişisel site. Next.js App Router, Tailwind CSS ve Framer Motion ile geliştirildi.
+**Linux Developer & Open-Source Enthusiast**
 
-## Tech
-- Next.js 16 (App Router, `src/app`)
-- Tailwind CSS v4
-- Framer Motion, lucide-react, react-icons
+Kişisel portfolyo web sitemin kaynak kodları. Modern web teknolojileri, performans ve erişilebilirlik odaklı bir yaklaşımla geliştirilmiştir.
 
-## Scripts
-```bash
-npm run dev     # local development (opsiyonel)
-npm run build   # production build
-npm start       # run the built app
-```
+## Hakkımda
+Yazılım becerilerini geliştirmek isteyen bir Elektrik-Elektronik mühendisliği öğrencisiyim. Şu anda **JavaScript**, **C++** ve **Python** ile çalışıyorum. Ayrıca Linux ekosistemi üzerinde çeşitli projeler geliştiriyorum ve açık kaynak dünyasına katkı sağlamayı hedefliyorum.
 
-## Deploy
+## Bağlantılar
+- **LinkedIn:** [linkedin.com/in/muhammed-batuhan](https://www.linkedin.com/in/muhammed-batuhan)
+- **GitHub:** [github.com/muhammedby](https://github.com/muhammedby)
+- **Medium:** [medium.com/@muhammedbatuhan](https://medium.com/@muhammedbatuhan)
+- **X (Twitter):** [x.com/batubym](https://x.com/batubym)
+- **Instagram:** [instagram.com/bayramhmd](https://www.instagram.com/bayramhmd/)
 
-### Vercel (önerilen)
-1) Reponu Vercel’e bağla (Import Project).
-2) Framework: Next.js. Build Command: `npm run build`. Output: otomatik.
-3) Ortam değişkenlerini (varsa) Vercel Dashboard’dan ekle ve Deploy.
-
-### Cloudflare Pages
-1) Pages → Connect to Git → Framework preset: Next.js
-2) Build Command: `npm run build`  •  Output dir: `.next`
-3) Node compatibility’yi aç. SSR özellikleri için Pages’in Next.js entegrasyonu aktif olmalıdır.
-
-## İçerik / Varlıklar
-- Sertifika görselleri: `public/certs/...`
-- Sertifika verileri: `src/data/certificates.js`
-
-## Çalışma Notları
-- SEO & meta: `src/app/layout.js`, `src/app/robots.js`, `src/app/sitemap.js`
-- Ana sayfa: `src/app/page.js`
-- Navigasyon/Altlık: `src/components/Nav.js`, `src/components/Footer.js`
-
-## Env
-- `.env*` dosyaları `.gitignore` içinde. Prod env’leri doğrudan Vercel/Cloudflare üzerinden tanımlayın.
+## Teknoloji Yığını
+Bu proje aşağıdaki teknolojilerle oluşturulmuştur:
+- **Framework:** Next.js 16 (App Router)
+- **Stil:** Tailwind CSS v4
+- **Animasyon:** Framer Motion
+- **İkonlar:** Lucide React & React Icons
 
 ## Lisans
-MIT © Muhammed Batuhan Bayram
+MIT © 2025 Muhammed Batuhan Bayram
