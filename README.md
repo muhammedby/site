@@ -8,6 +8,7 @@ Kişisel portfolyo web sitemin kaynak kodları. Modern web teknolojileri, perfor
 Yazılım becerilerini geliştirmek isteyen bir Elektrik-Elektronik mühendisliği öğrencisiyim. Şu anda **JavaScript**, **C++** ve **Python** ile çalışıyorum. Ayrıca Linux ekosistemi üzerinde çeşitli projeler geliştiriyorum ve açık kaynak dünyasına katkı sağlamayı hedefliyorum.
 
 ## Bağlantılar
+- **Website:** [bayram.xyz](https://bayram.xyz/git)
 - **LinkedIn:** [linkedin.com/in/muhammed-batuhan](https://www.linkedin.com/in/muhammed-batuhan)
 - **GitHub:** [github.com/muhammedby](https://github.com/muhammedby)
 - **Medium:** [medium.com/@muhammedbatuhan](https://medium.com/@muhammedbatuhan)
