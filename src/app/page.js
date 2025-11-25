@@ -23,10 +23,10 @@ export default function Home() {
         </h1>
         <div className="mt-3">
           <div className="bg-gradient-to-b from-zinc-900 to-zinc-600 bg-clip-text text-4xl font-semibold text-transparent dark:from-zinc-100 dark:to-zinc-400 sm:text-5xl">
-            Linux Developer
+            Linux Geliştiricisi
           </div>
           <div className="bg-gradient-to-b from-zinc-700 to-zinc-400 bg-clip-text text-2xl font-medium text-transparent dark:from-zinc-300 dark:to-zinc-500 sm:text-3xl">
-            Open‑Source Enthusiast
+            Açık Kaynak Ekosistemi Savunucusu
           </div>
         </div>
         <p className="mx-auto mt-5 max-w-2xl text-balance text-zinc-600 dark:text-zinc-400">

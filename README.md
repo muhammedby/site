@@ -1,11 +1,11 @@
 # Muhammed Batuhan Bayram
 
-**Linux Developer & Open-Source Enthusiast**
+**Linux Geliştiricisi & Açık Kaynak Ekosistemi Savunucusu**
 
 Kişisel portfolyo web sitemin kaynak kodları. Modern web teknolojileri, performans ve erişilebilirlik odaklı bir yaklaşımla geliştirilmiştir.
 
 ## Hakkımda
-Yazılım becerilerini geliştirmek isteyen bir Elektrik-Elektronik mühendisliği öğrencisiyim. Şu anda **JavaScript**, **C++** ve **Python** ile çalışıyorum. Ayrıca Linux ekosistemi üzerinde çeşitli projeler geliştiriyorum ve açık kaynak dünyasına katkı sağlamayı hedefliyorum.
+Yazılım becerilerini geliştirmek isteyen bir Elektrik-Elektronik mühendisliği öğrencisiyim. Şu anda **JavaScript**, **C++** ve **Python** ile çalışıyorum. Ayrıca Linux ekosistemi üzerinde çeşitli projeler geliştiriyor, açık kaynak topluluğunda üretken ve sürdürülebilir katkılar hedefliyorum.
 
 ## Bağlantılar
 - **Website:** [bayram.xyz](https://bayram.xyz)
