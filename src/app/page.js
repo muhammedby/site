@@ -21,7 +21,7 @@ export default function Home() {
         <h1 className="mt-6 max-w-none bg-gradient-to-r from-teal-400 via-violet-400 to-indigo-400 bg-clip-text text-6xl font-extrabold leading-tight text-transparent sm:text-7xl md:whitespace-nowrap">
           Muhammed Batuhan Bayram
         </h1>
-        <div className="mt-3 bg-gradient-to-b from-zinc-900 to-zinc-600 bg-clip-text text-4xl font-semibold text-transparent dark:from-zinc-100 dark:to-zinc-400 sm:text-5xl">
+        <div className="mt-3 bg-gradient-to-b from-zinc-900 to-zinc-600 bg-clip-text pb-1 text-4xl font-semibold leading-tight text-transparent dark:from-zinc-100 dark:to-zinc-400 sm:text-5xl">
           Linux ve Açık Kaynak Geliştiricisi
         </div>
         <p className="mx-auto mt-5 max-w-2xl text-balance text-zinc-600 dark:text-zinc-400">
