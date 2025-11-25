@@ -1,6 +1,6 @@
 # Muhammed Batuhan Bayram
 
-**Linux Geliştiricisi & Açık Kaynak Ekosistemi Savunucusu**
+**Linux ve Açık Kaynak Geliştiricisi**
 
 Kişisel portfolyo web sitemin kaynak kodları. Modern web teknolojileri, performans ve erişilebilirlik odaklı bir yaklaşımla geliştirilmiştir.
 
