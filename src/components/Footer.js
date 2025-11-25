@@ -31,7 +31,7 @@ export default function Footer() {
             Medium
           </Link>
           <Link
-            href="https://www.instagram.com/bayramhmd/"
+            href="https://www.instagram.com/bayramhmd18"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-zinc-900 dark:hover:text-white"
