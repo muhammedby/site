@@ -58,6 +58,34 @@ export const certificates = [
     ],
     image: "/certs/dla-2025/dla-etkinlik.png",
   },
+  {
+    title: "Huawei Kubernetes — Katılım Sertifikası",
+    issuer: "Huawei",
+    date: "2025",
+    href: "#",
+    slug: "huawei-kubernetes",
+    summary:
+      "Huawei Kubernetes eğitimi; konteynizasyon, orkestrasyon, uygulama yönetimi ve bulut-native uygulamalar konularını kapsar.",
+    body: [
+      "Huawei Student Developers (HSD) Türkiye tarafından düzenlenen Huawei Kubernetes eğitim programını başarıyla tamamladım.",
+      "Program kapsamında Kubernetes'in temel konseptleri, pod yönetimi, deployment stratejileri ve CCE (Cloud Container Engine) üzerindeki uygulamalar hakkında detaylı bilgiler edindim.",
+    ],
+    image: "/certs/huawei-kubernetes/huaweikubernetes.png",
+  },
+  {
+    title: "Garanti BBVA — Katılım Sertifikası",
+    issuer: "Garanti BBVA",
+    date: "2025",
+    href: "#",
+    slug: "garanti-bbva",
+    summary:
+      "Garanti BBVA tarafından sunulan fintech ve bankacılık teknolojileri eğitim programı.",
+    body: [
+      "Garanti BBVA tarafından düzenlenen fintech ve bankacılık teknolojileri eğitim programını başarıyla tamamladım.",
+      "Program süresince modern bankacılık uygulamaları, güvenlik protokolleri ve finansal teknoloji konularında kapsamlı eğitim aldım.",
+    ],
+    image: "/certs/garanti-bbva/garantibbva.png",
+  },
 ];
 
 
