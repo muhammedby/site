@@ -62,7 +62,7 @@ export const certificates = [
     title: "Huawei Kubernetes — Katılım Sertifikası",
     issuer: "Huawei",
     date: "2025",
-    href: "#",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_huaweicloud-kubernetes-cce-activity-7407285247375020032-sj0N",
     slug: "huawei-kubernetes",
     summary:
       "Huawei Kubernetes eğitimi; konteynizasyon, orkestrasyon, uygulama yönetimi ve bulut-native uygulamalar konularını kapsar.",
@@ -73,18 +73,32 @@ export const certificates = [
     image: "/certs/huawei-kubernetes/huaweikubernetes.png",
   },
   {
-    title: "Garanti BBVA — Katılım Sertifikası",
+    title: "Garanti BBVA GenAI — Katılım Sertifikası",
     issuer: "Garanti BBVA",
     date: "2025",
-    href: "#",
-    slug: "garanti-bbva",
+    href: "https://coderspace.io/sertifikalar/74868783-1209-4ee9-b963-313e4d25ba44",
+    slug: "garanti-bbva-genai",
     summary:
-      "Garanti BBVA tarafından sunulan fintech ve bankacılık teknolojileri eğitim programı.",
+      "Garanti BBVA tarafından sunulan Generatif Yapay Zeka eğitim programı.",
     body: [
-      "Garanti BBVA tarafından düzenlenen fintech ve bankacılık teknolojileri eğitim programını başarıyla tamamladım.",
-      "Program süresince modern bankacılık uygulamaları, güvenlik protokolleri ve finansal teknoloji konularında kapsamlı eğitim aldım.",
+      "Garanti BBVA tarafından düzenlenen Generatif Yapay Zeka eğitim programını başarıyla tamamladım.",
+      "Program süresince yapay zeka modelleri, doğal dil işleme ve generatif AI uygulamaları konularında kapsamlı eğitim aldım.",
     ],
     image: "/certs/garanti-bbva/garantibbva.png",
+  },
+  {
+    title: "Garanti BBVA Temel Makine Öğrenmesi — Katılım Sertifikası",
+    issuer: "Garanti BBVA",
+    date: "2025",
+    href: "https://coderspace.io/sertifikalar/547f04ca-0a56-4773-82b4-2bbe69ce90f8",
+    slug: "garanti-bbva-ml",
+    summary:
+      "Garanti BBVA tarafından sunulan Temel Makine Öğrenmesi eğitim programı.",
+    body: [
+      "Garanti BBVA tarafından düzenlenen Temel Makine Öğrenmesi eğitim programını başarıyla tamamladım.",
+      "Program süresince makine öğrenmesi algoritmaları, veri işleme, model eğitimi ve değerlendirme konularında kapsamlı eğitim aldım.",
+    ],
+    image: "/certs/garanti-bbva/garantibbva1.png",
   },
 ];
 
