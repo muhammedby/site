@@ -100,6 +100,20 @@ export const certificates = [
     ],
     image: "/certs/garanti-bbva/garantibbva1.png",
   },
+  {
+    title: "Garanti BBVA ChatGPT Kullanımı ve Prompt Mühendisliği — Katılım Sertifikası",
+    issuer: "Garanti BBVA",
+    date: "2025",
+    href: "https://coderspace.io/sertifikalar/0ec6e091-dd05-4dbc-9e78-4cf6fc0938b2",
+    slug: "garanti-bbva-chatgpt",
+    summary:
+      "Garanti BBVA tarafından sunulan ChatGPT Kullanımı ve Prompt Mühendisliği eğitim programı.",
+    body: [
+      "Garanti BBVA tarafından düzenlenen ChatGPT Kullanımı ve Prompt Mühendisliği eğitim programını başarıyla tamamladım.",
+      "Program süresince ChatGPT gibi yapay zeka araçlarını etkili bir şekilde kullanma, prompt yazma teknikleri ve yapay zekanın pratik uygulamaları konularında kapsamlı eğitim aldım.",
+    ],
+    image: "/certs/garanti-bbva/garantibbva2.png",
+  },
 ];
 
 
