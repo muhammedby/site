@@ -46,6 +46,14 @@ export default function Footer() {
           >
             X
           </Link>
+          <Link
+            href="https://www.youtube.com/@muhammedbatuhanbayram"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-zinc-900 dark:hover:text-white"
+          >
+            YouTube
+          </Link>
         </div>
       </div>
     </footer>

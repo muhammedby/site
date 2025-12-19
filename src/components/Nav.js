@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Instagram, PenSquare } from "lucide-react";
+import { Github, Linkedin, Instagram, PenSquare, Youtube } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Nav() {
@@ -68,6 +68,15 @@ export default function Nav() {
             className="rounded-full p-2 text-zinc-700 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-white/10 dark:hover:text-white"
           >
             <FaXTwitter className="h-4 w-4" />
+          </a>
+          <a
+            href="https://www.youtube.com/@muhammedbatuhanbayram"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+            className="rounded-full p-2 text-zinc-700 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-white/10 dark:hover:text-white"
+          >
+            <Youtube className="h-4 w-4" />
           </a>
         </nav>
       </div>
