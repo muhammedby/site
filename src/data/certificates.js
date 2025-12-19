@@ -76,7 +76,7 @@ export const certificates = [
     title: "Garanti BBVA GenAI — Katılım Sertifikası",
     issuer: "Garanti BBVA",
     date: "2025",
-    href: "https://coderspace.io/sertifikalar/74868783-1209-4ee9-b963-313e4d25ba44",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_garantibbvagenaex-coderspace-yeninesilkariyerokulu-activity-7407772520575057921-XY4j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMtwYABA9Q2WDevGBaWkdTH-zJpvOS_9jc",
     slug: "garanti-bbva-genai",
     summary:
       "Garanti BBVA tarafından sunulan Generatif Yapay Zeka eğitim programı.",
@@ -90,7 +90,7 @@ export const certificates = [
     title: "Garanti BBVA Temel Makine Öğrenmesi — Katılım Sertifikası",
     issuer: "Garanti BBVA",
     date: "2025",
-    href: "https://coderspace.io/sertifikalar/547f04ca-0a56-4773-82b4-2bbe69ce90f8",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_garantibbvagenaex-coderspace-yeninesilkariyerokulu-activity-7407772520575057921-XY4j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMtwYABA9Q2WDevGBaWkdTH-zJpvOS_9jc",
     slug: "garanti-bbva-ml",
     summary:
       "Garanti BBVA tarafından sunulan Temel Makine Öğrenmesi eğitim programı.",
@@ -104,7 +104,7 @@ export const certificates = [
     title: "Garanti BBVA ChatGPT Kullanımı ve Prompt Mühendisliği — Katılım Sertifikası",
     issuer: "Garanti BBVA",
     date: "2025",
-    href: "https://coderspace.io/sertifikalar/0ec6e091-dd05-4dbc-9e78-4cf6fc0938b2",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_garantibbvagenaex-coderspace-yeninesilkariyerokulu-activity-7407772520575057921-XY4j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMtwYABA9Q2WDevGBaWkdTH-zJpvOS_9jc",
     slug: "garanti-bbva-chatgpt",
     summary:
       "Garanti BBVA tarafından sunulan ChatGPT Kullanımı ve Prompt Mühendisliği eğitim programı.",
@@ -113,6 +113,34 @@ export const certificates = [
       "Program süresince ChatGPT gibi yapay zeka araçlarını etkili bir şekilde kullanma, prompt yazma teknikleri ve yapay zekanın pratik uygulamaları konularında kapsamlı eğitim aldım.",
     ],
     image: "/certs/garanti-bbva/garantibbva2.png",
+  },
+  {
+    title: "Garanti BBVA Geleceğin Teknolojileri — Katılım Sertifikası",
+    issuer: "Garanti BBVA",
+    date: "2025",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_garantibbvagenaex-coderspace-yeninesilkariyerokulu-activity-7407772520575057921-XY4j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMtwYABA9Q2WDevGBaWkdTH-zJpvOS_9jc",
+    slug: "garanti-bbva-technologies",
+    summary:
+      "Garanti BBVA tarafından sunulan Geleceğin Teknolojileri eğitim programı.",
+    body: [
+      "Garanti BBVA tarafından düzenlenen Geleceğin Teknolojileri eğitim programını başarıyla tamamladım.",
+      "Program süresince gelişen teknoloji trendleri, yenilikçi çözümler ve teknoloji alanındaki gelecek beklentileri konularında kapsamlı eğitim aldım.",
+    ],
+    image: "/certs/garanti-bbva/garantibbva3.png",
+  },
+  {
+    title: "Garanti BBVA Yeni Nesil Kariyer Okulu - Teknoloji Serisi — Katılım Sertifikası",
+    issuer: "Garanti BBVA",
+    date: "2025",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_garantibbvagenaex-coderspace-yeninesilkariyerokulu-activity-7407772520575057921-XY4j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMtwYABA9Q2WDevGBaWkdTH-zJpvOS_9jc",
+    slug: "garanti-bbva-career-school",
+    summary:
+      "Garanti BBVA tarafından sunulan Yeni Nesil Kariyer Okulu - Teknoloji Serisi eğitim programı.",
+    body: [
+      "Garanti BBVA tarafından düzenlenen Yeni Nesil Kariyer Okulu - Teknoloji Serisi eğitim programını başarıyla tamamladım.",
+      "Program süresince teknoloji alanında kariyer gelişimi, endüstri trendleri ve profesyonel beceriler konularında kapsamlı eğitim aldım.",
+    ],
+    image: "/certs/garanti-bbva/garantibbva4.png",
   },
 ];
 
