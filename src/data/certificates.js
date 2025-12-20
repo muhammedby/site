@@ -14,6 +14,20 @@ export const certificates = [
     image: "/certs/Miuul/yapayzekamini.png",
   },
   {
+    title: "Miuul Data Scientist Bootcamp Teaser",
+    issuer: "Miuul",
+    date: "2025",
+    href: "https://learning.miuul.com/certificates/fb0z9kgltw",
+    slug: "miuul-data-scientist-teaser",
+    summary:
+      "Miuul tarafından sunulan Data Scientist Bootcamp Teaser programı; veri bilimi temelleri ve pratik uygulamaları kapsar.",
+    body: [
+      "Miuul tarafından düzenlenen Data Scientist Bootcamp Teaser programını başarıyla tamamladım.",
+      "Program süresince veri bilimi temelleri, veri analizi, makine öğrenmesi ve pratik projeler konularında eğitim aldım.",
+    ],
+    image: "/certs/Miuul/datateaser.png",
+  },
+  {
     title: "DLA 2025 — Başarı Sertifikası",
     issuer: "Digital Leadership Academy",
     date: "2025",
