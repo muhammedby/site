@@ -40,8 +40,14 @@ body {
   display: inline-flex;
   animation: marquee 28s linear infinite;
 }
+.animate-marquee-infinite {
+  display: inline-flex;
+  animation: marquee 60s linear infinite;
+}
 .animate-marquee.paused,
-.animate-marquee:hover {
+.animate-marquee:hover,
+.animate-marquee-infinite.paused,
+.animate-marquee-infinite:hover {
   animation-play-state: paused;
 }
 
@@ -50,7 +56,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-33.333%);
   }
 }
 

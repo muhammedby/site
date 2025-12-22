@@ -165,35 +165,37 @@ export default function Home() {
       {/* Certificates */}
       <section
         id="certificates"
-        className="mx-auto mt-20 w-full max-w-5xl scroll-mt-20"
+        className="mt-20 w-full scroll-mt-20"
       >
-        <div className="flex items-end justify-between">
-          <div>
-            <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
-              Sertifikalar ve Başarılar
-            </h2>
+        <div className="mx-auto w-full max-w-5xl px-6 sm:px-8">
+          <div className="flex items-end justify-between">
+            <div>
+              <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+                Sertifikalar ve Başarılar
+              </h2>
+            </div>
           </div>
         </div>
 
-        {/* Marquee: single-row horizontal scroller that pauses on hover/touch */}
-        <div className="mt-6 overflow-visible px-4">
+        {/* Marquee container: full width with border/bg */}
+        <div className="mt-6 w-full rounded-xl border border-white/10 bg-white/50 backdrop-blur dark:bg-white/5 py-6 overflow-hidden">
           <div
             id="cert-marquee"
-            className="marquee animate-marquee"
+            className="marquee animate-marquee-infinite"
             onMouseEnter={(e) => e.currentTarget.classList.add("paused")}
             onMouseLeave={(e) => e.currentTarget.classList.remove("paused")}
             onTouchStart={(e) => e.currentTarget.classList.add("paused")}
             onTouchEnd={(e) => e.currentTarget.classList.remove("paused")}
           >
-            {/* Render items twice for seamless loop */}
-            {[...certificates, ...certificates].map((c, idx) => {
+            {/* Render items 3x for seamless infinite loop */}
+            {[...certificates, ...certificates, ...certificates].map((c, idx) => {
               return (
                 <a
                   key={`${c.title}-${idx}`}
                   href={c.href || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block w-56 flex-shrink-0 rounded-lg border border-white/10 bg-white/60 p-2 text-left shadow-sm transition hover:scale-105 hover:shadow-md dark:bg-white/5"
+                  className="inline-block w-56 flex-shrink-0 rounded-lg border border-white/10 bg-white/60 p-2 text-left shadow-sm transition hover:scale-105 hover:shadow-md dark:bg-white/5 mx-2"
                 >
                   <div className="relative h-32 w-full overflow-hidden rounded">
                     <Image
