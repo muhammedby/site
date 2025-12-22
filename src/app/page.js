@@ -165,15 +165,13 @@ export default function Home() {
       {/* Certificates */}
       <section
         id="certificates"
-        className="mt-20 w-full scroll-mt-20"
+        className="mx-auto mt-20 w-full max-w-5xl scroll-mt-20 px-6 sm:px-8"
       >
-        <div className="mx-auto w-full max-w-5xl px-6 sm:px-8">
-          <div className="flex items-end justify-between">
-            <div>
-              <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
-                Sertifikalar ve Başarılar
-              </h2>
-            </div>
+        <div className="flex items-end justify-between">
+          <div>
+            <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+              Sertifikalar ve Başarılar
+            </h2>
           </div>
         </div>
 
