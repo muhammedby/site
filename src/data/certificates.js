@@ -1,6 +1,6 @@
 export const certificates = [
   {
-    title: "Miuul Yapay Zeka Mini Bootcamp — Mezuniyet Sertifikası",
+    title: "Miuul Yapay Zeka Mini Bootcamp — Katılım Sertifikası",
     issuer: "Miuul",
     date: "2025",
     href: "https://www.linkedin.com/posts/muhammed-batuhan_yapayzeka-pythonprogramlama-aiagentuygulamalaraft-activity-7408135983000580097-SsXy",
@@ -8,13 +8,13 @@ export const certificates = [
     summary:
       "Miuul tarafından sunulan Yapay Zeka Mini Bootcamp; Python programlama, AI agent uygulamaları ve RAG teknolojileri konularını kapsar.",
     body: [
-      "Miuul tarafından düzenlenen Yapay Zeka Mini Bootcamp programını başarıyla tamamlayarak mezuniyet sertifikası aldım.",
+      "Miuul tarafından düzenlenen Yapay Zeka Mini Bootcamp programını başarıyla tamamlayarak katılım sertifikası aldım.",
       "Program süresince Python programlama, yapay zeka temelleri, AI agent uygulamaları, RAG (Retrieval-Augmented Generation) teknolojileri ve pratik uygulamalar konularında kapsamlı eğitim aldım.",
     ],
     image: "/certs/Miuul/yapayzekamini.png",
   },
   {
-    title: "Miuul Data Scientist Bootcamp Teaser",
+    title: "Miuul Data Scientist Bootcamp Teaser — Katılım Sertifikası",
     issuer: "Miuul",
     date: "2025",
     href: "https://learning.miuul.com/certificates/fb0z9kgltw",
