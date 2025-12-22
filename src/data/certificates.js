@@ -28,6 +28,20 @@ export const certificates = [
     image: "/certs/Miuul/datateaser.png",
   },
   {
+    title: "Miuul Data Visualization and Reporting with Power BI — Başarı Sertifikası",
+    issuer: "Miuul",
+    date: "2025",
+    href: "https://www.linkedin.com/posts/muhammed-batuhan_powerbi-dataanalytics-businessintelligence-activity-7408804611681071104-zbVh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMtwYABA9Q2WDevGBaWkdTH-zJpvOS_9jc",
+    slug: "miuul-powerbi",
+    summary:
+      "Miuul tarafından sunulan Data Visualization and Reporting with Power BI programı; veri görselleştirme ve raporlama konularını kapsar.",
+    body: [
+      "Miuul tarafından düzenlenen Data Visualization and Reporting with Power BI programını başarıyla tamamlayarak başarı sertifikası aldım.",
+      "Program süresince Power BI araçları, veri görselleştirme teknikleri, interaktif dashboardlar oluşturma ve iş zekâsı raporlaması konularında kapsamlı eğitim aldım.",
+    ],
+    image: "/certs/Miuul/powerbi.png",
+  },
+  {
     title: "DLA 2025 — Başarı Sertifikası",
     issuer: "Digital Leadership Academy",
     date: "2025",
