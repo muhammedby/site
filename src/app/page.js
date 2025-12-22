@@ -176,7 +176,7 @@ export default function Home() {
         </div>
 
         {/* Marquee container: full width with border/bg */}
-        <div className="mt-6 w-full rounded-xl border border-white/10 bg-white/50 backdrop-blur dark:bg-white/5 py-6 overflow-hidden">
+        <div className="mt-6 -mx-6 sm:-mx-8 rounded-xl border border-white/10 bg-white/50 backdrop-blur dark:bg-white/5 py-6 overflow-hidden">
           <div
             id="cert-marquee"
             className="marquee animate-marquee-infinite"
