@@ -172,59 +172,52 @@ export default function Home() {
             <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
               Sertifikalar ve Başarılar
             </h2>
+            <p className="mt-2 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">Tüm sertifikalar tek satırda otomatik akar — üzerine gelince durur.</p>
           </div>
         </div>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {certificates.map((c) => {
-            const isInternal = c.href && c.href.startsWith("/");
-            const CardInner = (
-              <>
-                <div className="relative aspect-[16/10] w-full">
-                  <Image
-                    src={c.image}
-                    alt={c.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
-                    className="object-cover"
-                    priority={false}
-                    unoptimized
-                  />
-                </div>
-                <div className="p-4">
-                  <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-                    {c.title}
-                  </h3>
-                  <p className="mt-1 text-xs text-zinc-600 dark:text-zinc-400">
-                    {c.issuer} · {c.date}
-                  </p>
-                  {!isInternal ? (
-                    <p className="mt-2 text-xs text-zinc-700 underline underline-offset-4 group-hover:text-zinc-900 dark:text-zinc-300 dark:group-hover:text-white">
-                      LinkedIn'de incele
+
+        {/* Marquee: single-row horizontal scroller that pauses on hover/touch */}
+        <div className="mt-6 overflow-hidden">
+          <div
+            id="cert-marquee"
+            className="marquee animate-marquee"
+            onMouseEnter={(e) => e.currentTarget.classList.add("paused")}
+            onMouseLeave={(e) => e.currentTarget.classList.remove("paused")}
+            onTouchStart={(e) => e.currentTarget.classList.add("paused")}
+            onTouchEnd={(e) => e.currentTarget.classList.remove("paused")}
+          >
+            {/* Render items twice for seamless loop */}
+            {[...certificates, ...certificates].map((c, idx) => {
+              return (
+                <a
+                  key={`${c.title}-${idx}`}
+                  href={c.href || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-56 flex-shrink-0 rounded-lg border border-white/10 bg-white/60 p-2 text-left shadow-sm transition hover:scale-105 hover:shadow-md dark:bg-white/5"
+                >
+                  <div className="relative h-32 w-full overflow-hidden rounded">
+                    <Image
+                      src={c.image}
+                      alt={c.title}
+                      fill
+                      sizes="224px"
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </div>
+                  <div className="mt-2">
+                    <h3 className="text-xs font-semibold text-zinc-900 dark:text-zinc-100 truncate">
+                      {c.title}
+                    </h3>
+                    <p className="mt-1 text-[11px] text-zinc-600 dark:text-zinc-400 truncate">
+                      {c.issuer} · {c.date}
                     </p>
-                  ) : null}
-                </div>
-              </>
-            );
-            return isInternal ? (
-              <Link
-                key={c.title}
-                href={c.href}
-                className="group overflow-hidden rounded-xl border border-white/10 bg-white/60 transition hover:border-white/20 hover:shadow-sm backdrop-blur dark:bg-white/5"
-              >
-                {CardInner}
-              </Link>
-            ) : (
-              <a
-                key={c.title}
-                href={c.href || "#"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group overflow-hidden rounded-xl border border-white/10 bg-white/60 transition hover:border-white/20 hover:shadow-sm backdrop-blur dark:bg-white/5"
-              >
-                {CardInner}
-              </a>
-            );
-          })}
+                  </div>
+                </a>
+              );
+            })}
+          </div>
         </div>
       </section>
 

@@ -27,3 +27,30 @@ body {
     "Segoe UI Emoji";
 }
 
+/* Marquee animation for single-row certificate scroller */
+.marquee {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  /* prevent item wrapping */
+  white-space: nowrap;
+}
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 28s linear infinite;
+}
+.animate-marquee.paused,
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
