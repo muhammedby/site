@@ -172,12 +172,11 @@ export default function Home() {
             <h2 className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
               Sertifikalar ve Başarılar
             </h2>
-            <p className="mt-2 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">Tüm sertifikalar tek satırda otomatik akar — üzerine gelince durur.</p>
           </div>
         </div>
 
         {/* Marquee: single-row horizontal scroller that pauses on hover/touch */}
-        <div className="mt-6 overflow-hidden">
+        <div className="mt-6 overflow-visible px-4">
           <div
             id="cert-marquee"
             className="marquee animate-marquee"
