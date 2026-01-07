@@ -52,7 +52,7 @@ export default function Nav() {
             <PenSquare className="h-4 w-4" />
           </a>
           <a
-            href="https://www.instagram.com/bayramhmd18"
+            href="https://www.instagram.com/muhamrned"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
