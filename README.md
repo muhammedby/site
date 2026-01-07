@@ -13,7 +13,7 @@ Yazılım becerilerini geliştirmek isteyen bir Elektrik-Elektronik mühendisli�
 - **GitHub:** [github.com/muhammedby](https://github.com/muhammedby)
 - **Medium:** [medium.com/@muhammedbatuhan](https://medium.com/@muhammedbatuhan)
 - **X (Twitter):** [x.com/batubym](https://x.com/batubym)
-- **Instagram:** [instagram.com/bayramhmd](https://www.instagram.com/muhamrned/)
+- **Instagram:** [instagram.com/muhamrned](https://www.instagram.com/muhamrned/)
 
 ## Teknoloji Yığını
 Bu proje aşağıdaki teknolojilerle oluşturulmuştur:
